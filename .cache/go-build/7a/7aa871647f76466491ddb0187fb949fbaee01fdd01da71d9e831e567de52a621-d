@@ -1,0 +1,12 @@
+./byteorder.go
+./cpu.go
+./cpu_aix.go
+./cpu_ppc64x.go
+./endian_big.go
+./parse.go
+./runtime_auxv.go
+./runtime_auxv_go121.go
+./syscall_aix_ppc64_gc.go
+./parse_test.go
+./runtime_auxv_go121_test.go
+./asm_aix_ppc64.s

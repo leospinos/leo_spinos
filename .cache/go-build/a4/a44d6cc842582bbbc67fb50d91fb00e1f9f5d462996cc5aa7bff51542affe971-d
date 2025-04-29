@@ -1,0 +1,4 @@
+./cpu.go
+./cpu_ppc64x.go
+./cpu_ppc64x_linux.go
+./cpu.s

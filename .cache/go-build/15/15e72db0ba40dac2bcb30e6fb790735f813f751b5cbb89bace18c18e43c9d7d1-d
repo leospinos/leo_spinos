@@ -1,0 +1,14 @@
+./arandom_netbsd.go
+./at.go
+./at_fstatat.go
+./at_sysnum_netbsd.go
+./constants.go
+./eaccess.go
+./faccessat_bsd.go
+./fcntl_unix.go
+./kernel_version_other.go
+./net.go
+./nofollow_netbsd.go
+./nonblocking_unix.go
+./syscall.go
+./tcsetpgrp_bsd.go

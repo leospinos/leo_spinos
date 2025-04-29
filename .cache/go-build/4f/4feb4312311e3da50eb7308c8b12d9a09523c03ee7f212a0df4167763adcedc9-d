@@ -1,0 +1,7 @@
+./cpu.go
+./cpu_loong64.go
+./cpu_loong64_hwcap.go
+./cpu_loong64_linux.go
+./cpu_no_name.go
+./cpu.s
+./cpu_loong64.s

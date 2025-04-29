@@ -1,0 +1,7 @@
+./atomic_ppc64x.go
+./doc.go
+./stubs.go
+./types.go
+./types_64bit.go
+./unaligned.go
+./atomic_ppc64x.s

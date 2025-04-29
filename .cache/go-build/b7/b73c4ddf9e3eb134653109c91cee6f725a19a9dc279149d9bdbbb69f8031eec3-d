@@ -1,0 +1,2 @@
+./cpu_test.go
+./endian_test.go

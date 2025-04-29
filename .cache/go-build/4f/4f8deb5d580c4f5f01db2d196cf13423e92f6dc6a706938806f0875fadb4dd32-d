@@ -1,0 +1,3 @@
+./map_bench_test.go
+./map_reference_test.go
+./map_test.go

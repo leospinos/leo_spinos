@@ -1,0 +1,4 @@
+./mem.go
+./storage.go
+./test.go
+./mem_test.go

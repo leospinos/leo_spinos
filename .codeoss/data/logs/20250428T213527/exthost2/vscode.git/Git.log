@@ -1,0 +1,308 @@
+2025-04-28 21:56:05.161 [info] [main] Log level: Info
+2025-04-28 21:56:05.161 [info] [main] Validating found git in: "git"
+2025-04-28 21:56:05.161 [info] [main] Using git "2.43.0" from "git"
+2025-04-28 21:56:05.161 [info] [Model][doInitialScan] Initial repository scan started
+2025-04-28 21:56:05.161 [info] > git rev-parse --show-toplevel [1655ms]
+2025-04-28 21:56:05.161 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (1), unsafe repositories (0)
+2025-04-28 21:56:07.928 [info] > git rev-parse --show-toplevel [82ms]
+2025-04-28 21:56:07.954 [info] > git rev-parse --show-toplevel [6ms]
+2025-04-28 21:56:22.013 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-28 21:56:22.024 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-04-28 21:56:22.036 [info] [Model][openRepository] Opened repository: /home/leo_spinos
+2025-04-28 21:56:22.060 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-28 21:56:22.062 [info] > git config --get commit.template [13ms]
+2025-04-28 21:56:22.063 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-04-28 21:56:22.063 [warning] [Git][getBranch] No such branch: main
+2025-04-28 21:56:22.089 [info] > git status -z -uall [16ms]
+2025-04-28 21:56:22.091 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-04-28 21:56:22.129 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2025-04-28 21:56:22.130 [warning] [Git][getBranch] No such branch: main
+2025-04-28 21:56:22.131 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2025-04-28 21:56:22.154 [info] > git config --get commit.template [25ms]
+2025-04-28 21:56:22.155 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-28 21:56:22.168 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-28 21:56:22.168 [warning] [Git][getBranch] No such branch: main
+2025-04-28 21:56:22.198 [info] > git status -z -uall [16ms]
+2025-04-28 21:56:22.201 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-04-28 21:56:22.664 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 21:56:26.150 [info] > git show --textconv :.codeoss/extensions/extensions.json [12ms]
+2025-04-28 21:56:26.152 [info] > git ls-files --stage -- /home/leo_spinos/.codeoss/extensions/extensions.json [4ms]
+2025-04-28 21:56:28.988 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [29ms]
+2025-04-28 21:56:28.988 [info] fatal: bad revision 'refs/heads/main'
+2025-04-28 21:56:28.989 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/main"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/main'\n"
+}
+2025-04-28 21:56:29.496 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 21:56:32.029 [info] > git show --textconv HEAD:.codeoss/data/User/History/-422a496d/EpWU.json [14ms]
+2025-04-28 21:56:32.029 [info] > git ls-tree -l HEAD -- /home/leo_spinos/.codeoss/data/User/History/-422a496d/EpWU.json [4ms]
+2025-04-28 21:56:32.029 [info] fatal: Not a valid object name HEAD
+2025-04-28 21:56:32.542 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-28 21:56:59.854 [info] > git show --textconv HEAD:.codeoss/data/User/History/-422a496d/iGA8.json [11ms]
+2025-04-28 21:56:59.856 [info] > git ls-tree -l HEAD -- /home/leo_spinos/.codeoss/data/User/History/-422a496d/iGA8.json [4ms]
+2025-04-28 21:56:59.856 [info] fatal: Not a valid object name HEAD
+2025-04-28 21:57:10.630 [info] > git show --textconv HEAD:.codeoss/data/User/History/-422a496d/EpWU.json [28ms]
+2025-04-28 21:57:10.632 [info] > git config --get commit.template [9ms]
+2025-04-28 21:57:10.632 [info] > git ls-tree -l HEAD -- /home/leo_spinos/.codeoss/data/User/History/-422a496d/EpWU.json [20ms]
+2025-04-28 21:57:10.632 [info] fatal: Not a valid object name HEAD
+2025-04-28 21:57:10.651 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-28 21:57:10.653 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-28 21:57:10.653 [warning] [Git][getBranch] No such branch: main
+2025-04-28 21:57:10.673 [info] > git status -z -uall [10ms]
+2025-04-28 21:57:10.675 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-04-28 21:57:11.102 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 21:57:12.508 [info] > git show --textconv HEAD:.config/powershell/Microsoft.PowerShell_profile.ps1 [10ms]
+2025-04-28 21:57:12.510 [info] > git ls-tree -l HEAD -- /home/leo_spinos/.config/powershell/Microsoft.PowerShell_profile.ps1 [4ms]
+2025-04-28 21:57:12.510 [info] fatal: Not a valid object name HEAD
+2025-04-28 21:57:13.017 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 21:57:33.707 [info] > git show --textconv HEAD:.codeoss/extensions/extensions.json [12ms]
+2025-04-28 21:57:33.709 [info] > git ls-tree -l HEAD -- /home/leo_spinos/.codeoss/extensions/extensions.json [6ms]
+2025-04-28 21:57:33.709 [info] fatal: Not a valid object name HEAD
+2025-04-28 21:57:34.521 [info] > git show --textconv HEAD:.docker/config.json [12ms]
+2025-04-28 21:57:34.521 [info] > git ls-tree -l HEAD -- /home/leo_spinos/.docker/config.json [4ms]
+2025-04-28 21:57:34.521 [info] fatal: Not a valid object name HEAD
+2025-04-28 21:57:35.038 [info] > git check-ignore -v -z --stdin [7ms]
+2025-04-28 21:57:42.663 [info] > git show --textconv HEAD:.vscode/settings.json [36ms]
+2025-04-28 21:57:42.677 [info] > git ls-tree -l HEAD -- /home/leo_spinos/.vscode/settings.json [28ms]
+2025-04-28 21:57:42.677 [info] fatal: Not a valid object name HEAD
+2025-04-28 21:57:43.189 [info] > git check-ignore -v -z --stdin [7ms]
+2025-04-28 21:57:43.938 [info] > git show --textconv HEAD:.npm/_logs/2025-04-28T21_35_30_104Z-debug-0.log [30ms]
+2025-04-28 21:57:43.939 [info] > git ls-tree -l HEAD -- /home/leo_spinos/.npm/_logs/2025-04-28T21_35_30_104Z-debug-0.log [18ms]
+2025-04-28 21:57:43.939 [info] fatal: Not a valid object name HEAD
+2025-04-28 21:57:44.393 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-28 21:58:12.266 [info] > git show --textconv HEAD:.codeoss/data/User/History/-422a496d/ztzg.json [10ms]
+2025-04-28 21:58:12.268 [info] > git ls-tree -l HEAD -- /home/leo_spinos/.codeoss/data/User/History/-422a496d/ztzg.json [4ms]
+2025-04-28 21:58:12.268 [info] fatal: Not a valid object name HEAD
+2025-04-28 21:58:14.058 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-28 21:58:15.127 [info] > git show --textconv HEAD:.codeoss/data/logs/20250428T213527/exthost2/vscode.json-language-features/JSON Language Server.log [10ms]
+2025-04-28 21:58:15.130 [info] > git ls-tree -l HEAD -- /home/leo_spinos/.codeoss/data/logs/20250428T213527/exthost2/vscode.json-language-features/JSON Language Server.log [5ms]
+2025-04-28 21:58:15.130 [info] fatal: Not a valid object name HEAD
+2025-04-28 21:58:15.617 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 21:58:41.687 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 21:58:44.511 [info] > git show --textconv HEAD:.codeoss/data/logs/20250428T213527/exthost2/output_logging_20250428T215602/2-Google Cloud CLI Installation.log [11ms]
+2025-04-28 21:58:44.513 [info] > git ls-tree -l HEAD -- /home/leo_spinos/.codeoss/data/logs/20250428T213527/exthost2/output_logging_20250428T215602/2-Google Cloud CLI Installation.log [4ms]
+2025-04-28 21:58:44.513 [info] fatal: Not a valid object name HEAD
+2025-04-28 21:58:45.020 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 21:58:46.093 [info] > git show --textconv HEAD:.codeoss/data/logs/20250428T213527/exthost2/output_logging_20250428T215602/1-EditorConfig.log [10ms]
+2025-04-28 21:58:46.094 [info] > git ls-tree -l HEAD -- /home/leo_spinos/.codeoss/data/logs/20250428T213527/exthost2/output_logging_20250428T215602/1-EditorConfig.log [3ms]
+2025-04-28 21:58:46.094 [info] fatal: Not a valid object name HEAD
+2025-04-28 21:58:51.988 [info] > git show --textconv HEAD:.codeoss/data/logs/20250428T213527/exthost2/output_logging_20250428T215602/3-Apigee.log [12ms]
+2025-04-28 21:58:51.990 [info] > git ls-tree -l HEAD -- /home/leo_spinos/.codeoss/data/logs/20250428T213527/exthost2/output_logging_20250428T215602/3-Apigee.log [4ms]
+2025-04-28 21:58:51.990 [info] fatal: Not a valid object name HEAD
+2025-04-28 21:58:52.914 [info] > git show --textconv HEAD:.codeoss/data/logs/20250428T213527/exthost2/output_logging_20250428T215602/4-Cloud Code Yaml Support.log [17ms]
+2025-04-28 21:58:52.914 [info] > git ls-tree -l HEAD -- /home/leo_spinos/.codeoss/data/logs/20250428T213527/exthost2/output_logging_20250428T215602/4-Cloud Code Yaml Support.log [7ms]
+2025-04-28 21:58:52.914 [info] fatal: Not a valid object name HEAD
+2025-04-28 21:58:53.864 [info] > git show --textconv HEAD:.codeoss/data/logs/20250428T213527/exthost2/output_logging_20250428T215602/5-Gemini Code Assist.log [14ms]
+2025-04-28 21:58:53.865 [info] > git ls-tree -l HEAD -- /home/leo_spinos/.codeoss/data/logs/20250428T213527/exthost2/output_logging_20250428T215602/5-Gemini Code Assist.log [3ms]
+2025-04-28 21:58:53.865 [info] fatal: Not a valid object name HEAD
+2025-04-28 22:00:01.362 [info] > git show --textconv HEAD:.codeoss/data/logs/20250428T213527/exthost2/output_logging_20250428T215602/4-Cloud Code Yaml Support.log [13ms]
+2025-04-28 22:00:01.363 [info] > git ls-tree -l HEAD -- /home/leo_spinos/.codeoss/data/logs/20250428T213527/exthost2/output_logging_20250428T215602/4-Cloud Code Yaml Support.log [3ms]
+2025-04-28 22:00:01.363 [info] fatal: Not a valid object name HEAD
+2025-04-28 22:00:03.717 [info] > git show --textconv HEAD:.codeoss/data/logs/20250428T213527/exthost2/output_logging_20250428T215602/2-Google Cloud CLI Installation.log [16ms]
+2025-04-28 22:00:03.720 [info] > git ls-tree -l HEAD -- /home/leo_spinos/.codeoss/data/logs/20250428T213527/exthost2/output_logging_20250428T215602/2-Google Cloud CLI Installation.log [6ms]
+2025-04-28 22:00:03.720 [info] fatal: Not a valid object name HEAD
+2025-04-28 22:00:04.811 [info] > git show --textconv HEAD:.codeoss/data/logs/20250428T213527/exthost2/remoteexthost.log [13ms]
+2025-04-28 22:00:04.812 [info] > git ls-tree -l HEAD -- /home/leo_spinos/.codeoss/data/logs/20250428T213527/exthost2/remoteexthost.log [4ms]
+2025-04-28 22:00:04.812 [info] fatal: Not a valid object name HEAD
+2025-04-28 22:00:05.803 [info] > git show --textconv HEAD:.codeoss/data/logs/20250428T213527/exthost1/vscode.json-language-features/JSON Language Server.log [11ms]
+2025-04-28 22:00:05.806 [info] > git ls-tree -l HEAD -- /home/leo_spinos/.codeoss/data/logs/20250428T213527/exthost1/vscode.json-language-features/JSON Language Server.log [5ms]
+2025-04-28 22:00:05.806 [info] fatal: Not a valid object name HEAD
+2025-04-28 22:00:06.295 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 22:00:17.422 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 22:00:19.751 [info] > git show --textconv HEAD:.codeoss/cde_restorepath [9ms]
+2025-04-28 22:00:19.754 [info] > git ls-tree -l HEAD -- /home/leo_spinos/.codeoss/cde_restorepath [4ms]
+2025-04-28 22:00:19.754 [info] fatal: Not a valid object name HEAD
+2025-04-28 22:00:20.682 [info] > git show --textconv HEAD:.codeoss/data/token [12ms]
+2025-04-28 22:00:20.684 [info] > git ls-tree -l HEAD -- /home/leo_spinos/.codeoss/data/token [8ms]
+2025-04-28 22:00:20.686 [info] fatal: Not a valid object name HEAD
+2025-04-28 22:00:22.472 [info] > git show --textconv HEAD:.bashrc [9ms]
+2025-04-28 22:00:22.474 [info] > git ls-tree -l HEAD -- /home/leo_spinos/.bashrc [4ms]
+2025-04-28 22:00:22.475 [info] fatal: Not a valid object name HEAD
+2025-04-28 22:00:46.543 [info] > git rev-parse --show-toplevel [4ms]
+2025-04-28 22:00:46.543 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-28 22:01:31.765 [info] > git rev-parse --show-toplevel [9ms]
+2025-04-28 22:01:31.765 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-28 22:01:51.433 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-28 22:01:51.433 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-28 22:02:18.781 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-28 22:02:18.782 [info] > git config --get commit.template [10ms]
+2025-04-28 22:02:18.782 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-04-28 22:02:18.783 [warning] [Git][getBranch] No such branch: main
+2025-04-28 22:02:18.804 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-04-28 22:02:18.808 [info] > git status -z -uall [18ms]
+2025-04-28 22:02:23.850 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-28 22:02:23.857 [info] > git config --get commit.template [9ms]
+2025-04-28 22:02:23.859 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-04-28 22:02:23.859 [warning] [Git][getBranch] No such branch: main
+2025-04-28 22:02:23.883 [info] > git status -z -uall [18ms]
+2025-04-28 22:02:23.883 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2025-04-28 22:02:48.262 [info] > git rev-parse --show-toplevel [1ms]
+2025-04-28 22:02:48.262 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-28 22:03:39.258 [info] > git rev-parse --show-toplevel [4ms]
+2025-04-28 22:03:39.258 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-28 22:03:53.603 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-28 22:03:53.603 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-04-28 22:04:01.420 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-28 22:04:01.420 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-28 22:04:09.163 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 22:04:09.997 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 22:04:13.303 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 22:04:17.081 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 22:04:20.887 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-28 22:04:20.888 [info] > git config --get commit.template [9ms]
+2025-04-28 22:04:20.889 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-04-28 22:04:20.889 [warning] [Git][getBranch] No such branch: main
+2025-04-28 22:04:20.911 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-04-28 22:04:20.913 [info] > git status -z -uall [17ms]
+2025-04-28 22:04:24.673 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-28 22:04:25.935 [info] > git show --textconv :.cache/Microsoft/DeveloperTools/deviceid [9ms]
+2025-04-28 22:04:25.937 [info] > git ls-files --stage -- /home/leo_spinos/.cache/Microsoft/DeveloperTools/deviceid [2ms]
+2025-04-28 22:04:26.244 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 22:04:29.002 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 22:04:29.833 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-28 22:04:30.259 [info] > git show --textconv :.cache/go-build/00/00dedcbaf5dd36c49447863279d4bf0649eb1838d56074e8076fc688dff92fca-d [10ms]
+2025-04-28 22:04:30.261 [info] > git ls-files --stage -- /home/leo_spinos/.cache/go-build/00/00dedcbaf5dd36c49447863279d4bf0649eb1838d56074e8076fc688dff92fca-d [3ms]
+2025-04-28 22:04:30.563 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 22:04:38.018 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 22:04:39.602 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 22:04:43.376 [info] > git show --textconv :.bashrc [11ms]
+2025-04-28 22:04:43.377 [info] > git ls-files --stage -- /home/leo_spinos/.bashrc [4ms]
+2025-04-28 22:04:43.672 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-28 22:05:43.416 [info] > git show --textconv :.profile [11ms]
+2025-04-28 22:05:43.417 [info] > git ls-files --stage -- /home/leo_spinos/.profile [4ms]
+2025-04-28 22:05:46.683 [info] > git show --textconv :.sudo_as_admin_successful [8ms]
+2025-04-28 22:05:46.685 [info] > git ls-files --stage -- /home/leo_spinos/.sudo_as_admin_successful [3ms]
+2025-04-28 22:05:49.648 [info] > git show --textconv :README-cloudshell.txt [9ms]
+2025-04-28 22:05:49.650 [info] > git ls-files --stage -- /home/leo_spinos/README-cloudshell.txt [3ms]
+2025-04-28 22:05:58.659 [info] > git show --textconv :.npm/_logs/2025-04-28T21_34_19_997Z-debug-0.log [9ms]
+2025-04-28 22:05:58.661 [info] > git ls-files --stage -- /home/leo_spinos/.npm/_logs/2025-04-28T21_34_19_997Z-debug-0.log [3ms]
+2025-04-28 22:05:58.943 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 22:06:10.014 [info] > git show --textconv :.npm/_update-notifier-last-checked [9ms]
+2025-04-28 22:06:10.016 [info] > git ls-files --stage -- /home/leo_spinos/.npm/_update-notifier-last-checked [3ms]
+2025-04-28 22:06:13.520 [info] > git show --textconv :.vscode/settings.json [38ms]
+2025-04-28 22:06:13.528 [info] > git ls-files --stage -- /home/leo_spinos/.vscode/settings.json [16ms]
+2025-04-28 22:06:28.293 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-28 22:06:29.486 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 22:06:30.296 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 22:06:44.598 [info] > git show --textconv :.docker/config.json [9ms]
+2025-04-28 22:06:44.600 [info] > git ls-files --stage -- /home/leo_spinos/.docker/config.json [3ms]
+2025-04-28 22:07:05.046 [info] > git show --textconv :.codeoss/cde_restorepath [11ms]
+2025-04-28 22:07:05.047 [info] > git ls-files --stage -- /home/leo_spinos/.codeoss/cde_restorepath [4ms]
+2025-04-28 22:07:18.052 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 22:07:20.787 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 22:07:22.403 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 22:07:24.442 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 22:07:25.217 [info] > git show --textconv :.codeoss/data/User/globalStorage/storage.json [8ms]
+2025-04-28 22:07:25.221 [info] > git ls-files --stage -- /home/leo_spinos/.codeoss/data/User/globalStorage/storage.json [4ms]
+2025-04-28 22:07:25.489 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-28 22:08:26.033 [info] > git show --textconv :.cache/cloud-code/install_id.txt [11ms]
+2025-04-28 22:08:26.036 [info] > git ls-files --stage -- /home/leo_spinos/.cache/cloud-code/install_id.txt [4ms]
+2025-04-28 22:08:30.692 [info] > git show --textconv HEAD:.bash_logout [10ms]
+2025-04-28 22:08:30.695 [info] > git ls-tree -l HEAD -- /home/leo_spinos/.bash_logout [3ms]
+2025-04-28 22:08:30.695 [info] fatal: Not a valid object name HEAD
+2025-04-28 22:08:32.610 [info] > git show --textconv HEAD:.profile [12ms]
+2025-04-28 22:08:32.611 [info] > git ls-tree -l HEAD -- /home/leo_spinos/.profile [4ms]
+2025-04-28 22:08:32.611 [info] fatal: Not a valid object name HEAD
+2025-04-28 22:08:35.870 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-28 22:08:36.059 [info] > git show --textconv HEAD:.cache/go-build/38/386a7265e55062f5aff67b8fb994b8bc913387c06f273e0e2bfef6cd5a951396-d [10ms]
+2025-04-28 22:08:36.060 [info] > git ls-tree -l HEAD -- /home/leo_spinos/.cache/go-build/38/386a7265e55062f5aff67b8fb994b8bc913387c06f273e0e2bfef6cd5a951396-d [3ms]
+2025-04-28 22:08:36.060 [info] fatal: Not a valid object name HEAD
+2025-04-28 22:08:36.298 [info] > git ls-tree -l HEAD -- /home/leo_spinos/.cache/go-build/38/386a7265e55062f5aff67b8fb994b8bc913387c06f273e0e2bfef6cd5a951396-d [3ms]
+2025-04-28 22:08:36.298 [info] fatal: Not a valid object name HEAD
+2025-04-28 22:08:36.550 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 22:08:40.155 [info] > git check-ignore -v -z --stdin [5ms]
+2025-04-28 22:08:41.423 [info] > git show --textconv HEAD:gopath/pkg/mod/golang.org/x/telemetry@v0.0.0-20240712210958-268b4a8ec2d7/.dockerignore [11ms]
+2025-04-28 22:08:41.425 [info] > git ls-tree -l HEAD -- /home/leo_spinos/gopath/pkg/mod/golang.org/x/telemetry@v0.0.0-20240712210958-268b4a8ec2d7/.dockerignore [4ms]
+2025-04-28 22:08:41.425 [info] fatal: Not a valid object name HEAD
+2025-04-28 22:08:41.931 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 22:08:44.967 [info] > git show --textconv HEAD:gopath/pkg/mod/golang.org/x/telemetry@v0.0.0-20240712210958-268b4a8ec2d7/.eslintrc.json [10ms]
+2025-04-28 22:08:44.970 [info] > git ls-tree -l HEAD -- /home/leo_spinos/gopath/pkg/mod/golang.org/x/telemetry@v0.0.0-20240712210958-268b4a8ec2d7/.eslintrc.json [3ms]
+2025-04-28 22:08:44.970 [info] fatal: Not a valid object name HEAD
+2025-04-28 22:08:49.761 [info] > git show --textconv HEAD:gopath/pkg/mod/github.com/golang/vscode-go@v0.42.1/build/nightly/const.ts [12ms]
+2025-04-28 22:08:49.762 [info] > git ls-tree -l HEAD -- /home/leo_spinos/gopath/pkg/mod/github.com/golang/vscode-go@v0.42.1/build/nightly/const.ts [5ms]
+2025-04-28 22:08:49.762 [info] fatal: Not a valid object name HEAD
+2025-04-28 22:08:50.591 [info] > git check-ignore -v -z --stdin [27ms]
+2025-04-28 22:08:54.159 [info] > git show --textconv HEAD:gopath/pkg/mod/github.com/golang/vscode-go@v0.42.1/build/README.md [10ms]
+2025-04-28 22:08:54.162 [info] > git ls-tree -l HEAD -- /home/leo_spinos/gopath/pkg/mod/github.com/golang/vscode-go@v0.42.1/build/README.md [5ms]
+2025-04-28 22:08:54.162 [info] fatal: Not a valid object name HEAD
+2025-04-28 22:08:56.234 [info] > git show --textconv HEAD:gopath/pkg/mod/github.com/golang/vscode-go@v0.42.1/build/nightly/const.ts [24ms]
+2025-04-28 22:08:56.234 [info] > git ls-tree -l HEAD -- /home/leo_spinos/gopath/pkg/mod/github.com/golang/vscode-go@v0.42.1/build/nightly/const.ts [16ms]
+2025-04-28 22:08:56.234 [info] fatal: Not a valid object name HEAD
+2025-04-28 22:09:01.997 [info] > git show --textconv HEAD:gopath/pkg/mod/github.com/golang/vscode-go@v0.42.1/build/all.bash [9ms]
+2025-04-28 22:09:02.000 [info] > git ls-tree -l HEAD -- /home/leo_spinos/gopath/pkg/mod/github.com/golang/vscode-go@v0.42.1/build/all.bash [3ms]
+2025-04-28 22:09:02.000 [info] fatal: Not a valid object name HEAD
+2025-04-28 22:09:09.395 [info] > git show --textconv HEAD:gopath/pkg/mod/github.com/golang/vscode-go@v0.42.1/.github/workflows/wiki.yml [11ms]
+2025-04-28 22:09:09.397 [info] > git ls-tree -l HEAD -- /home/leo_spinos/gopath/pkg/mod/github.com/golang/vscode-go@v0.42.1/.github/workflows/wiki.yml [3ms]
+2025-04-28 22:09:09.397 [info] fatal: Not a valid object name HEAD
+2025-04-28 22:09:09.904 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 22:09:17.318 [info] > git show --textconv HEAD:gopath/pkg/mod/github.com/golang/vscode-go@v0.42.1/LICENSE [14ms]
+2025-04-28 22:09:17.320 [info] > git ls-tree -l HEAD -- /home/leo_spinos/gopath/pkg/mod/github.com/golang/vscode-go@v0.42.1/LICENSE [5ms]
+2025-04-28 22:09:17.320 [info] fatal: Not a valid object name HEAD
+2025-04-28 22:09:26.424 [info] > git show --textconv HEAD:gopath/pkg/mod/github.com/golang/vscode-go@v0.42.1/go.mod [10ms]
+2025-04-28 22:09:26.426 [info] > git ls-tree -l HEAD -- /home/leo_spinos/gopath/pkg/mod/github.com/golang/vscode-go@v0.42.1/go.mod [4ms]
+2025-04-28 22:09:26.426 [info] fatal: Not a valid object name HEAD
+2025-04-28 22:09:28.922 [info] > git show --textconv HEAD:gopath/pkg/mod/github.com/golang/vscode-go@v0.42.1/go.sum [12ms]
+2025-04-28 22:09:28.924 [info] > git ls-tree -l HEAD -- /home/leo_spinos/gopath/pkg/mod/github.com/golang/vscode-go@v0.42.1/go.sum [5ms]
+2025-04-28 22:09:28.924 [info] fatal: Not a valid object name HEAD
+2025-04-28 22:09:38.193 [info] > git show --textconv HEAD:gopath/pkg/mod/github.com/golang/vscode-go@v0.42.1/.editorconfig [15ms]
+2025-04-28 22:09:38.195 [info] > git ls-tree -l HEAD -- /home/leo_spinos/gopath/pkg/mod/github.com/golang/vscode-go@v0.42.1/.editorconfig [6ms]
+2025-04-28 22:09:38.195 [info] fatal: Not a valid object name HEAD
+2025-04-28 22:09:39.823 [info] > git show --textconv HEAD:gopath/pkg/mod/github.com/golang/vscode-go@v0.42.1/.gitignore [9ms]
+2025-04-28 22:09:39.826 [info] > git ls-tree -l HEAD -- /home/leo_spinos/gopath/pkg/mod/github.com/golang/vscode-go@v0.42.1/.gitignore [4ms]
+2025-04-28 22:09:39.826 [info] fatal: Not a valid object name HEAD
+2025-04-28 22:09:42.520 [info] > git show --textconv HEAD:gopath/pkg/mod/cache/download/sumdb/sum.golang.org/tile/8/3/000.p/2 [11ms]
+2025-04-28 22:09:42.523 [info] > git ls-tree -l HEAD -- /home/leo_spinos/gopath/pkg/mod/cache/download/sumdb/sum.golang.org/tile/8/3/000.p/2 [6ms]
+2025-04-28 22:09:42.523 [info] fatal: Not a valid object name HEAD
+2025-04-28 22:09:43.029 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 22:09:44.066 [info] > git show --textconv HEAD:gopath/pkg/mod/cache/download/sumdb/sum.golang.org/tile/8/2/002.p/48 [10ms]
+2025-04-28 22:09:44.067 [info] > git ls-tree -l HEAD -- /home/leo_spinos/gopath/pkg/mod/cache/download/sumdb/sum.golang.org/tile/8/2/002.p/48 [4ms]
+2025-04-28 22:09:44.067 [info] fatal: Not a valid object name HEAD
+2025-04-28 22:09:44.214 [info] > git ls-tree -l HEAD -- /home/leo_spinos/gopath/pkg/mod/cache/download/sumdb/sum.golang.org/tile/8/2/002.p/48 [3ms]
+2025-04-28 22:09:44.214 [info] fatal: Not a valid object name HEAD
+2025-04-28 22:09:44.574 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 22:09:44.991 [info] > git show --textconv HEAD:gopath/pkg/mod/cache/download/sumdb/sum.golang.org/tile/8/3/000.p/2 [9ms]
+2025-04-28 22:09:44.993 [info] > git ls-tree -l HEAD -- /home/leo_spinos/gopath/pkg/mod/cache/download/sumdb/sum.golang.org/tile/8/3/000.p/2 [3ms]
+2025-04-28 22:09:44.993 [info] fatal: Not a valid object name HEAD
+2025-04-28 22:09:56.893 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-28 22:09:58.299 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 22:10:04.497 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 22:10:05.693 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 22:10:06.801 [info] > git show --textconv HEAD:gopath/pkg/mod/golang.org/x/telemetry@v0.0.0-20240712210958-268b4a8ec2d7/CONTRIBUTING.md [9ms]
+2025-04-28 22:10:06.805 [info] > git ls-tree -l HEAD -- /home/leo_spinos/gopath/pkg/mod/golang.org/x/telemetry@v0.0.0-20240712210958-268b4a8ec2d7/CONTRIBUTING.md [4ms]
+2025-04-28 22:10:06.805 [info] fatal: Not a valid object name HEAD
+2025-04-28 22:10:18.012 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 22:10:18.992 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-28 22:10:20.470 [info] > git show --textconv HEAD:gopath/pkg/mod/golang.org/x/telemetry@v0.0.0-20240712210958-268b4a8ec2d7/tsconfig.json [10ms]
+2025-04-28 22:10:20.472 [info] > git ls-tree -l HEAD -- /home/leo_spinos/gopath/pkg/mod/golang.org/x/telemetry@v0.0.0-20240712210958-268b4a8ec2d7/tsconfig.json [4ms]
+2025-04-28 22:10:20.472 [info] fatal: Not a valid object name HEAD
+2025-04-28 22:10:31.058 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 22:10:33.998 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-28 22:10:35.913 [info] > git show --textconv HEAD:gopath/pkg/sumdb/sum.golang.org/latest [14ms]
+2025-04-28 22:10:35.915 [info] > git ls-tree -l HEAD -- /home/leo_spinos/gopath/pkg/sumdb/sum.golang.org/latest [8ms]
+2025-04-28 22:10:35.915 [info] fatal: Not a valid object name HEAD
+2025-04-28 22:10:36.422 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-28 22:10:52.826 [info] > git show --textconv HEAD:gopath/pkg/mod/golang.org/x/telemetry@v0.0.0-20240712210958-268b4a8ec2d7/internal/upload/upload.go [12ms]
+2025-04-28 22:10:52.828 [info] > git ls-tree -l HEAD -- /home/leo_spinos/gopath/pkg/mod/golang.org/x/telemetry@v0.0.0-20240712210958-268b4a8ec2d7/internal/upload/upload.go [5ms]
+2025-04-28 22:10:52.828 [info] fatal: Not a valid object name HEAD
+2025-04-28 22:10:53.338 [info] > git check-ignore -v -z --stdin [4ms]
+2025-04-28 22:10:57.560 [info] > git show --textconv HEAD:gopath/pkg/mod/golang.org/x/telemetry@v0.0.0-20240712210958-268b4a8ec2d7/internal/upload/run.go [64ms]
+2025-04-28 22:10:57.562 [info] > git ls-tree -l HEAD -- /home/leo_spinos/gopath/pkg/mod/golang.org/x/telemetry@v0.0.0-20240712210958-268b4a8ec2d7/internal/upload/run.go [50ms]
+2025-04-28 22:10:57.564 [info] fatal: Not a valid object name HEAD
+2025-04-28 22:11:14.298 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n556 --follow -- /home/leo_spinos/gopath/pkg/mod/golang.org/x/telemetry@v0.0.0-20240712210958-268b4a8ec2d7/internal/upload/run.go [4ms]
+2025-04-28 22:11:14.298 [info] fatal: your current branch 'main' does not have any commits yet
+2025-04-28 22:11:16.319 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 --follow -- /home/leo_spinos/.codeoss/extensions/extensions.json [4ms]
+2025-04-28 22:11:16.319 [info] fatal: your current branch 'main' does not have any commits yet
+2025-04-28 22:11:16.578 [info] > git show --textconv :.codeoss/extensions/extensions.json [9ms]
+2025-04-28 22:11:16.580 [info] > git ls-files --stage -- /home/leo_spinos/.codeoss/extensions/extensions.json [3ms]
+2025-04-29 00:18:06.019 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-29 00:18:06.078 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [60ms]
+2025-04-29 00:18:06.078 [warning] [Git][getBranch] No such branch: main
+2025-04-29 00:18:06.079 [info] > git config --get commit.template [82ms]
+2025-04-29 00:18:06.184 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [40ms]
+2025-04-29 00:18:06.196 [info] > git ls-files --stage -- /home/leo_spinos/.codeoss/extensions/extensions.json [11ms]
+2025-04-29 00:18:06.231 [info] > git cat-file -s 0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc [12ms]
+2025-04-29 00:18:06.245 [info] > git status -z -uall [146ms] (cancelled)
+2025-04-29 00:18:06.346 [info] > git show --textconv :.codeoss/extensions/extensions.json [4ms]

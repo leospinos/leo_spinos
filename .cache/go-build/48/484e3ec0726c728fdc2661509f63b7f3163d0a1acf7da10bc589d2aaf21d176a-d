@@ -1,0 +1,4 @@
+./constant_time.go
+./xor.go
+./xor_loong64.go
+./xor_loong64.s

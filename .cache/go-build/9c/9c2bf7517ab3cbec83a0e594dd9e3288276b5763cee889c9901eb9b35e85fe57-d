@@ -1,0 +1,13 @@
+./const_plan9.go
+./dir_plan9.go
+./env_unix.go
+./errors_plan9.go
+./exec_plan9.go
+./net.go
+./pwd_plan9.go
+./syscall.go
+./syscall_plan9.go
+./time_nofake.go
+./zsyscall_plan9_arm.go
+./zsysnum_plan9.go
+./asm_plan9_arm.s

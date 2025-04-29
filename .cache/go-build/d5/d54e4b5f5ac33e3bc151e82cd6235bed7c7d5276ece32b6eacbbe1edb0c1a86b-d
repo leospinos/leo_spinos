@@ -1,0 +1,11 @@
+./address.go
+./binary.go
+./interface.go
+./interface_openbsd.go
+./message.go
+./route.go
+./route_openbsd.go
+./sys.go
+./sys_openbsd.go
+./syscall.go
+./zsys_openbsd.go

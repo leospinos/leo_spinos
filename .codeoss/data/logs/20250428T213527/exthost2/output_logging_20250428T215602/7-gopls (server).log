@@ -1,0 +1,74 @@
+[Info  - 10:00:48 PM] 2025/04/28 22:00:48 Created View (#1)
+	directory=/home/leo_spinos/.codeoss/extensions
+	view_type="AdHoc"
+	root_dir="file:///home/leo_spinos/.codeoss/extensions"
+	go_version="go version go1.24.2 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/leo_spinos/.cache/go-build GOMODCACHE:/home/leo_spinos/gopath/pkg/mod GOPATH:/home/leo_spinos/gopath:/google/gopath GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/local/go GoVersion:24 GoVersionOutput:go version go1.24.2 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 10:00:48 PM] 2025/04/28 22:00:48 go/packages.Load #1
+	view_id="1"
+	snapshot=0
+	directory=/home/leo_spinos/.codeoss/extensions
+	query=[./ builtin]
+	packages=2
+	duration=153.263932ms
+
+[Error - 10:00:48 PM] Request textDocument/codeAction failed.
+  Message: no package metadata for file file:///lib/lsb/init-functions.d/00-verbose
+  Code: 0 
+[Info  - 10:00:48 PM] 2025/04/28 22:00:48 go/packages.Load #2
+	view_id="1"
+	snapshot=1
+	directory=/home/leo_spinos/.codeoss/extensions
+	query=[file=/lib/lsb/init-functions.d/00-verbose]
+	packages=0
+	duration=32.250631ms
+
+[Error - 10:00:48 PM] Request textDocument/inlayHint failed.
+  Message: getting file for InlayHint: no package metadata for file file:///lib/lsb/init-functions.d/00-verbose
+  Code: 0 
+[Error - 10:00:52 PM] Request textDocument/inlayHint failed.
+  Message: getting file for InlayHint: no package metadata for file file:///lib/lsb/init-functions.d/00-verbose
+  Code: 0 
+[Error - 10:01:17 PM] Request textDocument/inlayHint failed.
+  Message: getting file for InlayHint: no package metadata for file file:///lib/lsb/init-functions.d/00-verbose
+  Code: 0 
+[Error - 10:01:18 PM] Request textDocument/hover failed.
+  Message: no package metadata for file file:///lib/lsb/init-functions.d/00-verbose
+  Code: 0 
+[Info  - 10:01:18 PM] 2025/04/28 22:01:18 background imports cache refresh starting
+
+[Info  - 10:01:18 PM] 2025/04/28 22:01:18 background refresh finished after 6.670083ms
+
+[Error - 10:01:18 PM] 2025/04/28 22:01:18 no highlight: getting package for Highlight: no package metadata for file file:///lib/lsb/init-functions.d/00-verbose
+
+[Error - 10:10:57 PM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Info  - 10:10:58 PM] 2025/04/28 22:10:58 go/packages.Load #4
+	view_id="1"
+	snapshot=7
+	directory=/home/leo_spinos/.codeoss/extensions
+	query=[file=/home/leo_spinos/gopath/pkg/mod/golang.org/x/telemetry@v0.0.0-20240712210958-268b4a8ec2d7/internal/upload/upload.go]
+	packages=1
+	duration=4.605878228s
+
+[Info  - 10:11:00 PM] 2025/04/28 22:11:00 go/packages.Load #5
+	view_id="1"
+	snapshot=7
+	directory=/home/leo_spinos/.codeoss/extensions
+	query=[file=/home/leo_spinos/gopath/pkg/mod/golang.org/x/telemetry@v0.0.0-20240712210958-268b4a8ec2d7/internal/upload/upload.go]
+	packages=1
+	duration=3.036012127s
+
+[Info  - 10:11:01 PM] 2025/04/28 22:11:01 go/packages.Load #6
+	view_id="1"
+	snapshot=9
+	directory=/home/leo_spinos/.codeoss/extensions
+	query=[file=/home/leo_spinos/gopath/pkg/mod/golang.org/x/telemetry@v0.0.0-20240712210958-268b4a8ec2d7/internal/upload/run.go]
+	packages=1
+	duration=194.829436ms
+

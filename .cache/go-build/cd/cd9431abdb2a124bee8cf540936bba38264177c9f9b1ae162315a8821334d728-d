@@ -1,0 +1,11 @@
+./bytealg.go
+./compare_native.go
+./count_generic.go
+./equal_generic.go
+./equal_native.go
+./index_generic.go
+./indexbyte_native.go
+./lastindexbyte_generic.go
+./compare_mips64x.s
+./equal_mips64x.s
+./indexbyte_mips64x.s

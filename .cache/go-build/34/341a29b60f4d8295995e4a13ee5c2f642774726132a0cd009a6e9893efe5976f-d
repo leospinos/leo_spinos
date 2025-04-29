@@ -1,0 +1,16 @@
+./arc4random_openbsd.go
+./at_libc2.go
+./at_openbsd.go
+./at_sysnum_openbsd.go
+./constants.go
+./eaccess.go
+./faccessat_openbsd.go
+./fcntl_unix.go
+./kernel_version_other.go
+./net.go
+./nofollow_posix.go
+./nonblocking_unix.go
+./syscall.go
+./sysnum_linux_ppc64x.go
+./tcsetpgrp_bsd.go
+./asm_openbsd.s

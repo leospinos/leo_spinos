@@ -1,0 +1,6 @@
+./crc32.go
+./crc32_generic.go
+./crc32_ppc64le.go
+./gen.go
+./crc32_ppc64le.s
+./crc32_table_ppc64le.s

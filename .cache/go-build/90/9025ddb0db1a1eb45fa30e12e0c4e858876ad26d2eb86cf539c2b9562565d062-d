@@ -1,0 +1,14 @@
+./bytealg.go
+./compare_native.go
+./count_native.go
+./equal_generic.go
+./equal_native.go
+./index_native.go
+./index_ppc64x.go
+./indexbyte_native.go
+./lastindexbyte_generic.go
+./compare_ppc64x.s
+./count_ppc64x.s
+./equal_ppc64x.s
+./index_ppc64x.s
+./indexbyte_ppc64x.s

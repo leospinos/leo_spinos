@@ -1,0 +1,8 @@
+./address.go
+./binary.go
+./lif.go
+./link.go
+./sys.go
+./syscall.go
+./zsys_solaris_amd64.go
+./sys_solaris_amd64.s

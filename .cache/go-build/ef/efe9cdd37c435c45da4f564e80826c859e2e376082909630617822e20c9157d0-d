@@ -1,0 +1,4 @@
+./defs_linux.go
+./defs_linux_mipsx.go
+./syscall_linux.go
+./asm_linux_mipsx.s

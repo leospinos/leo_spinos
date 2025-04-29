@@ -1,0 +1,8 @@
+./dirent_test.go
+./example_exec_test.go
+./fdset_test.go
+./mmap_unix_test.go
+./syscall_aix_test.go
+./syscall_test.go
+./syscall_unix_test.go
+./timestruct_test.go

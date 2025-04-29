@@ -1,0 +1,10 @@
+./byteorder.go
+./cpu.go
+./cpu_linux.go
+./cpu_linux_ppc64x.go
+./cpu_ppc64x.go
+./endian_big.go
+./hwcap_linux.go
+./parse.go
+./runtime_auxv.go
+./runtime_auxv_go121.go

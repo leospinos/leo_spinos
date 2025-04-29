@@ -1,0 +1,5 @@
+./match.go
+./path.go
+./path_plan9.go
+./symlink.go
+./symlink_plan9.go

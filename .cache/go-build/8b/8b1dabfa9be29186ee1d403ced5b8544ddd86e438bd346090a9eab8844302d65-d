@@ -1,0 +1,5 @@
+./crc32.go
+./crc32_generic.go
+./crc32_loong64.go
+./gen.go
+./crc32_loong64.s

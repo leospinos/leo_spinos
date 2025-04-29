@@ -1,0 +1,6 @@
+./atomic_mipsx.go
+./doc.go
+./stubs.go
+./types.go
+./unaligned.go
+./atomic_mipsx.s

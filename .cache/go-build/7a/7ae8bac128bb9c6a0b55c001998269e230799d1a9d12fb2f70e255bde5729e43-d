@@ -1,0 +1,4 @@
+./defs_linux.go
+./defs_linux_386.go
+./syscall_linux.go
+./asm_linux_386.s

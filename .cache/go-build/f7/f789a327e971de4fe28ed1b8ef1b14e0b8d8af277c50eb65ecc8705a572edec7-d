@@ -1,0 +1,6 @@
+./fd.go
+./fd_io_plan9.go
+./fd_mutex.go
+./fd_plan9.go
+./file_plan9.go
+./sendfile.go

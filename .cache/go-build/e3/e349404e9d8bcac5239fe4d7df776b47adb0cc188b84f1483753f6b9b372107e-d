@@ -1,0 +1,13 @@
+./abi.go
+./badlinkname.go
+./deepequal.go
+./iter.go
+./makefunc.go
+./map_swiss.go
+./stubs_ppc64x.go
+./swapper.go
+./type.go
+./value.go
+./visiblefields.go
+./asm_ppc64x.s
+./float32reg_ppc64x.s

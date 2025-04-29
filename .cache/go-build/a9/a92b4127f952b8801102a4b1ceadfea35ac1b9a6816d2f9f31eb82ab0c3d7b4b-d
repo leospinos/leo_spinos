@@ -1,0 +1,7 @@
+./note.go
+./tile.go
+./tlog.go
+./ct_test.go
+./note_test.go
+./tile_test.go
+./tlog_test.go

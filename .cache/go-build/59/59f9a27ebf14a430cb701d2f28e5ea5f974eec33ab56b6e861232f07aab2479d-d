@@ -1,0 +1,13 @@
+./at_libc.go
+./at_solaris.go
+./constants.go
+./eaccess.go
+./faccessat_solaris.go
+./fcntl_unix.go
+./getrandom_solaris.go
+./kernel_version_solaris.go
+./net.go
+./nofollow_posix.go
+./nonblocking_unix.go
+./syscall.go
+./asm_solaris.s

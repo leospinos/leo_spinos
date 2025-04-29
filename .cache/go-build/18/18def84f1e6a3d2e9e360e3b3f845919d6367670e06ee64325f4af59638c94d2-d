@@ -1,0 +1,4 @@
+./constant_time.go
+./xor.go
+./xor_ppc64x.go
+./xor_ppc64x.s

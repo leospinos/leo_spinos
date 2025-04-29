@@ -1,0 +1,72 @@
+Initializing document watcher...
+Document watcher initialized
+/User/settings.json: Using EditorConfig core...
+extensions/extensions.json: {}
+/home/leo_spinos/.codeoss/data/User/History/-422a496d/EpWU.json: {}
+/home/leo_spinos/.codeoss/data/User/History/-422a496d/iGA8.json: {}
+/home/leo_spinos/.codeoss/data/User/History/-422a496d/EpWU.json: {}
+/home/leo_spinos/.config/powershell/Microsoft.PowerShell_profile.ps1: {}
+extensions/extensions.json: {}
+/home/leo_spinos/.docker/config.json: {}
+/home/leo_spinos/.vscode/settings.json: {}
+/home/leo_spinos/.npm/_logs/2025-04-28T21_35_30_104Z-debug-0.log: {}
+/home/leo_spinos/.codeoss/data/User/History/-422a496d/ztzg.json: {}
+/home/leo_spinos/.codeoss/data/logs/20250428T213527/exthost2/vscode.json-language-features/JSON Language Server.log: {}
+/home/leo_spinos/.codeoss/data/logs/20250428T213527/exthost2/output_logging_20250428T215602/2-Google Cloud CLI Installation.log: {}
+/home/leo_spinos/.codeoss/data/logs/20250428T213527/exthost2/output_logging_20250428T215602/1-EditorConfig.log: {}
+/home/leo_spinos/.codeoss/data/logs/20250428T213527/exthost2/output_logging_20250428T215602/3-Apigee.log: {}
+/home/leo_spinos/.codeoss/data/logs/20250428T213527/exthost2/output_logging_20250428T215602/4-Cloud Code Yaml Support.log: {}
+/home/leo_spinos/.codeoss/data/logs/20250428T213527/exthost2/output_logging_20250428T215602/5-Gemini Code Assist.log: {}
+/home/leo_spinos/.codeoss/data/logs/20250428T213527/exthost2/output_logging_20250428T215602/5-Gemini Code Assist.log: {}
+/home/leo_spinos/.codeoss/data/logs/20250428T213527/exthost2/output_logging_20250428T215602/5-Gemini Code Assist.log: {}
+/home/leo_spinos/.codeoss/data/logs/20250428T213527/exthost2/output_logging_20250428T215602/4-Cloud Code Yaml Support.log: {}
+/home/leo_spinos/.codeoss/data/logs/20250428T213527/exthost2/output_logging_20250428T215602/2-Google Cloud CLI Installation.log: {}
+/home/leo_spinos/.codeoss/data/logs/20250428T213527/exthost2/remoteexthost.log: {}
+/home/leo_spinos/.codeoss/data/logs/20250428T213527/exthost1/vscode.json-language-features/JSON Language Server.log: {}
+/home/leo_spinos/.codeoss/cde_restorepath: {}
+/home/leo_spinos/.codeoss/data/token: {}
+/home/leo_spinos/.bashrc: {}
+/lib/lsb/init-functions.d/00-verbose: {}
+/lib/os-release: {}
+/lib/apparmor/apparmor.systemd: {}
+/bin/git-credential-gcloud.sh: {}
+/etc/.java/.systemPrefs/.system.lock: {}
+/proc/1/attr/current: {}
+/tmp/code-oss-vm-session-state.json: {}
+/home/leo_spinos/.cache/Microsoft/DeveloperTools/deviceid: {}
+/home/leo_spinos/.cache/go-build/00/00dedcbaf5dd36c49447863279d4bf0649eb1838d56074e8076fc688dff92fca-d: {}
+/home/leo_spinos/.bashrc: {}
+/home/leo_spinos/.profile: {}
+/home/leo_spinos/.sudo_as_admin_successful: {}
+/home/leo_spinos/README-cloudshell.txt: {}
+/home/leo_spinos/.npm/_logs/2025-04-28T21_34_19_997Z-debug-0.log: {}
+/home/leo_spinos/.npm/_update-notifier-last-checked: {}
+/home/leo_spinos/.vscode/settings.json: {}
+/home/leo_spinos/.docker/config.json: {}
+/home/leo_spinos/.codeoss/cde_restorepath: {}
+/home/leo_spinos/.codeoss/data/User/globalStorage/storage.json: {}
+/home/leo_spinos/.cache/cloud-code/install_id.txt: {}
+/home/leo_spinos/.bash_logout: {}
+/home/leo_spinos/.profile: {}
+/home/leo_spinos/gopath/pkg/mod/golang.org/x/telemetry@v0.0.0-20240712210958-268b4a8ec2d7/.dockerignore: {}
+/home/leo_spinos/gopath/pkg/mod/golang.org/x/telemetry@v0.0.0-20240712210958-268b4a8ec2d7/.eslintrc.json: {}
+/home/leo_spinos/gopath/pkg/mod/github.com/golang/vscode-go@v0.42.1/build/nightly/const.ts: {"insertSpaces":false,"tabSize":4}
+/home/leo_spinos/gopath/pkg/mod/github.com/golang/vscode-go@v0.42.1/build/README.md: {"insertSpaces":false,"tabSize":4}
+/home/leo_spinos/gopath/pkg/mod/github.com/golang/vscode-go@v0.42.1/build/nightly/const.ts: {"insertSpaces":false,"tabSize":4}
+/home/leo_spinos/gopath/pkg/mod/github.com/golang/vscode-go@v0.42.1/build/all.bash: {"insertSpaces":false,"tabSize":4}
+/home/leo_spinos/gopath/pkg/mod/github.com/golang/vscode-go@v0.42.1/.github/workflows/wiki.yml: {"insertSpaces":false,"tabSize":4}
+/home/leo_spinos/gopath/pkg/mod/github.com/golang/vscode-go@v0.42.1/LICENSE: {"insertSpaces":false,"tabSize":4}
+/home/leo_spinos/gopath/pkg/mod/github.com/golang/vscode-go@v0.42.1/go.mod: {"insertSpaces":false,"tabSize":4}
+/home/leo_spinos/gopath/pkg/mod/github.com/golang/vscode-go@v0.42.1/go.sum: {"insertSpaces":false,"tabSize":4}
+/home/leo_spinos/gopath/pkg/mod/github.com/golang/vscode-go@v0.42.1/.editorconfig: {"insertSpaces":false,"tabSize":4}
+/home/leo_spinos/gopath/pkg/mod/github.com/golang/vscode-go@v0.42.1/.gitignore: {"insertSpaces":false,"tabSize":4}
+/home/leo_spinos/gopath/pkg/mod/cache/download/sumdb/sum.golang.org/tile/8/3/000.p/2: {}
+/home/leo_spinos/gopath/pkg/mod/cache/download/sumdb/sum.golang.org/tile/8/3/000.p/2: {}
+/home/leo_spinos/gopath/pkg/mod/golang.org/x/telemetry@v0.0.0-20240712210958-268b4a8ec2d7/CONTRIBUTING.md: {}
+/home/leo_spinos/gopath/pkg/mod/golang.org/x/telemetry@v0.0.0-20240712210958-268b4a8ec2d7/tsconfig.json: {}
+/home/leo_spinos/gopath/pkg/sumdb/sum.golang.org/latest: {}
+/home/leo_spinos/gopath/pkg/mod/golang.org/x/telemetry@v0.0.0-20240712210958-268b4a8ec2d7/internal/upload/upload.go: {}
+/home/leo_spinos/gopath/pkg/mod/golang.org/x/telemetry@v0.0.0-20240712210958-268b4a8ec2d7/internal/upload/run.go: {}
+extensions/extensions.json: {}
+extensions/extensions.json: {}
+extensions/extensions.json: {}

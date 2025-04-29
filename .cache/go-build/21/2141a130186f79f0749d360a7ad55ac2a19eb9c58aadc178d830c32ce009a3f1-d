@@ -1,0 +1,13 @@
+./const_plan9.go
+./dir_plan9.go
+./env_plan9.go
+./errors_plan9.go
+./pwd_go15_plan9.go
+./race0.go
+./str.go
+./syscall.go
+./syscall_plan9.go
+./zsyscall_plan9_amd64.go
+./zsysnum_plan9.go
+./asm.s
+./asm_plan9_amd64.s

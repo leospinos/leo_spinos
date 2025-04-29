@@ -1,0 +1,10 @@
+./aes.go
+./aes_asm.go
+./aes_generic.go
+./cast.go
+./cbc.go
+./cbc_ppc64x.go
+./const.go
+./ctr.go
+./ctr_asm.go
+./aes_ppc64x.s

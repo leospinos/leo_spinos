@@ -1,0 +1,3 @@
+./cpu_s390x_test.go
+./cpu_test.go
+./endian_test.go

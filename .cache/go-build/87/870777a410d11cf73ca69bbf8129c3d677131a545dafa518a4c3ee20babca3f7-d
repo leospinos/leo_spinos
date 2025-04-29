@@ -1,0 +1,3 @@
+./semaphore_bench_test.go
+./semaphore_example_test.go
+./semaphore_test.go

@@ -1,0 +1,14 @@
+./at_aix.go
+./at_libc.go
+./constants.go
+./eaccess.go
+./faccessat_syscall.go
+./fcntl_unix.go
+./ioctl_aix.go
+./kernel_version_other.go
+./net.go
+./nofollow_posix.go
+./nonblocking_unix.go
+./syscall.go
+./sysnum_linux_ppc64x.go
+./asm_aix_ppc64.s

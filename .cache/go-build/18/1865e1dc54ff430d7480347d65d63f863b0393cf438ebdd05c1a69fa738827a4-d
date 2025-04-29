@@ -1,0 +1,7 @@
+./print.go
+./read.go
+./rule.go
+./work.go
+./read_test.go
+./rule_test.go
+./work_test.go

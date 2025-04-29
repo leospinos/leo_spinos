@@ -1,0 +1,10 @@
+./aes.go
+./aes_generic.go
+./aes_s390x.go
+./cast.go
+./cbc.go
+./cbc_s390x.go
+./const.go
+./ctr.go
+./ctr_s390x.go
+./aes_s390x.s

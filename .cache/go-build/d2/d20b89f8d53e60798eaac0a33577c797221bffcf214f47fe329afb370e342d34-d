@@ -1,0 +1,13 @@
+./address.go
+./binary.go
+./interface.go
+./interface_announce.go
+./interface_freebsd.go
+./interface_multicast.go
+./message.go
+./route.go
+./route_classic.go
+./sys.go
+./sys_freebsd.go
+./syscall.go
+./zsys_freebsd_riscv64.go
